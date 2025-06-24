@@ -1,0 +1,188 @@
+list:
+  #- 'arros-bomba'
+  #- 'macarrons-eco'
+  #- 'espirals-vegetals'
+  #- 'espaguetis-integrals-eco'
+  #- 'pistons'
+  #- 'fideus-no-4'
+  #- 'fideus-no-02'
+  #- 'llevat-nutricional-eco'
+  #- 'arros-marisma-integral-eco'
+  #- 'flocs-de-civada-fins-eco'
+  #- 'sucre-canya-integral-eco'
+  #- 'farina-forca'
+  #- 'xampinyo-eco'
+  #- 'pipes-girasol-eco'
+  #- 'pipes-carbassa-eco'
+  #- 'llentia-pardina-eco'
+  #- 'ametlla-torrada'
+  - 'avellana-torrada-semi-pelada'
+  - 'nous-meitat'
+  #- 'panses-sultanes'
+  #- 'sal-atlantic-gruixuda-no-refinada'
+  #- 'sesam-eco'
+  #- 'cous-cous-integral-eco'
+  #- 'all-pols'
+  #- 'curry'
+  #- 'aigua-fontboix-8l'
+  #- 'monsoy-civada-bio'
+  - 'llet-de-vaca-ato-ecologica-sencera'
+  #- 'tahin-monki-330-eco'
+  #- 'tomaquet-triturat-eco-700g'
+  #- 'mantega-bio-250grs'
+  - 'ous-eco'
+  #- 'olives-arago-450'
+  #- 'iogurt-vaca-natural-evo'
+  #- 'oli-oliva-verge-extra-eco-degustus-5l'
+  - 'cigrons-cuits-eco-¨cal-valls¨'
+  #- 'fesols-blancs-cuits-eco-¨cal-valls¨'
+  #- 'brou-de-pollastre-eco'
+  #- 'tropical'
+  #- 'crema-de-cacahuet-monki-bio'
+  - 'festuc-closca-torrat-s-sal'
+  #- 'ametlla-marcona-molta'
+  #- 'ametlla-marcona-crua-meitats/'
+  - 'cirera-eco'
+  #- 'datil-medjo-ul-jumbo'
+products:
+  - id: "arros-bomba"
+    type: "weight"
+    amount: 1000
+  - id: "macarrons-eco"
+    type: "weight"
+    amount: 1000
+  - id: "espirals-vegetals"
+    type: "weight"
+    amount: 1000
+  - id: "espaguetis-integrals-eco"
+    type: "weight"
+    amount: 500
+  - id: "pistons"
+    type: "weight"
+    amount: 1000
+  - id: "fideus-no-4"
+    type: "weight"
+    amount: 1000
+  - id: "fideus-no-2"
+    type: "weight"
+    amount: 1000
+  - id: "llevat-nutricional-eco"
+    type: "weight"
+    amount: 200
+  - id: "arros-marisma-integral-eco"
+    type: "weight"
+    amount: 1000
+  - id: "flocs-de-civada-fins-eco"
+    type: "weight"
+    amount: 300
+  - id: "sucre-canya-integral-eco"
+    type: "weight"
+    amount: 1000
+  - id: "farina-forca"
+    type: "weight"
+    amount: 1000
+  - id: "xampinyo-eco"
+    type: "weight"
+    amount: 250
+  - id: "pipes-girasol-eco"
+    type: "weight"
+    amount: 200
+  - id: "pipes-carbassa-eco"
+    type: "weight"
+    amount: 200
+  - id: "llentia-pardina-eco"
+    type: "weight"
+    amount: 1000
+  - id: "ametlla-torrada"
+    type: "weight"
+    amount: 300
+  - id: "avellana-torrada-semi-pelada"
+    type: "weight"
+    amount: 300
+  - id: "nous-meitat"
+    type: "weight"
+    amount: 400
+  - id: "panses-sultanes"
+    type: "weight"
+    amount: 300
+  - id: "sal-atlantic-gruixuda-no-refinada"
+    type: "weight"
+    amount: 1000
+  - id: "sesam-eco"
+    type: "weight"
+    amount: 200
+  - id: "cous-cous-integral-eco"
+    type: "weight"
+    amount: 1000
+  - id: "all-pols"
+    type: "weight"
+    amount: 100
+  - id: "curry"
+    type: "weight"
+    amount: 100
+  - id: "aigua-fontboix-8l"
+    type: "units"
+    amount: 10
+  - id: "monsoy-civada-bio"
+    type: "units"
+    amount: 6
+  - id: "llet-de-vaca-ato-ecologica-sencera"
+    type: "units"
+    amount: 6
+  - id: "tahin-monki-330-eco"
+    type: "units"
+    amount: 1
+  - id: "tomaquet-triturat-eco-700g"
+    type: "units"
+    amount: 1
+  - id: "mantega-bio-250grs"
+    type: "units"
+    amount: 1
+  - id: "ous-eco"
+    type: "units"
+    amount: 2
+  - id: "olives-arago-450"
+    type: "units"
+    amount: 2
+  - id: "iogurt-vaca-natural-evo"
+    type: "units"
+    amount: 2
+  - id: "oli-oliva-verge-extra-eco-degustus-5l"
+    type: "units"
+    amount: 1
+  - id: "cigrons-cuits-eco-¨cal-valls¨"
+    type: "units"
+    amount: 1
+  - id: "fesols-blancs-cuits-eco-¨cal-valls¨"
+    type: "units"
+    amount: 1
+  - id: "brou-de-pollastre-eco"
+    type: "units"
+    amount: 1
+  - id: "tropical"
+    type: "weight"
+    amount: 200
+  - id: "crema-de-cacahuet-monki-bio"
+    type: "units"
+    amount: 1
+  - id: "festuc-closca-torrat-s-sal"
+    type: "weight"
+    amount: 300
+  - id: "curcuma"
+    type: "weight"
+    amount: 200
+  - id: "festuc-closca-torrat-s-sal"
+    type: "weight"
+    amount: 400
+  - id: "cirera-eco"
+    type: "weight"
+    amount: 1000
+  - id: "ametlla-marcona-crua-meitats/"
+    type: "weight"
+    amount: 200
+  - id: "ametlla-marcona-molta"
+    type: "weight"
+    amount: 100
+  - id: "datil-medjo-ul-jumbo"
+    type: "weight"
+    amount: 100
