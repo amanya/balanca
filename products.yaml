@@ -1,7 +1,7 @@
 list:
   #- 'arros-bomba'
   #- 'macarrons-eco'
-  #- 'espirals-vegetals'
+  - 'espirals-vegetals'
   #- 'espaguetis-integrals-eco'
   #- 'pistons'
   #- 'fideus-no-4'
@@ -16,34 +16,61 @@ list:
   #- 'pipes-carbassa-eco'
   #- 'llentia-pardina-eco'
   #- 'ametlla-torrada'
-  - 'avellana-torrada-semi-pelada'
-  - 'nous-meitat'
+  #- 'ametlla-marcona-crua'
+  #- 'avellana-torrada-semi-pelada'
+  #- 'nous-meitat'
   #- 'panses-sultanes'
-  #- 'sal-atlantic-gruixuda-no-refinada'
+  - 'sal-atlantic-gruixuda-no-refinada'
   #- 'sesam-eco'
   #- 'cous-cous-integral-eco'
   #- 'all-pols'
   #- 'curry'
   #- 'aigua-fontboix-8l'
   #- 'monsoy-civada-bio'
-  - 'llet-de-vaca-ato-ecologica-sencera'
+  #- 'llet-de-vaca-ato-ecologica-sencera'
   #- 'tahin-monki-330-eco'
   #- 'tomaquet-triturat-eco-700g'
   #- 'mantega-bio-250grs'
   - 'ous-eco'
   #- 'olives-arago-450'
   #- 'iogurt-vaca-natural-evo'
-  #- 'oli-oliva-verge-extra-eco-degustus-5l'
+  - 'oli-oliva-verge-extra-eco-degustus-5l'
   - 'cigrons-cuits-eco-¨cal-valls¨'
   #- 'fesols-blancs-cuits-eco-¨cal-valls¨'
   #- 'brou-de-pollastre-eco'
   #- 'tropical'
   #- 'crema-de-cacahuet-monki-bio'
-  - 'festuc-closca-torrat-s-sal'
+  #- 'festuc-closca-torrat-s-sal'
   #- 'ametlla-marcona-molta'
-  #- 'ametlla-marcona-crua-meitats/'
+  #- 'ametlla-marcona-crua-meitats'
   - 'cirera-eco'
+  #- 'maduixes-eco-caixa-1kg'
+  #- 'mongeta-perona'
+  #- 'patata-monalisa-eco'
+  - 'tomaquet-pera-eco'
+  #- 'enciam-fulla-de-roure'
+  #- 'carbasso-eco'
+  #- 'llimona-eco'
+  #- 'pebrot-vermell-escalivar'
+  #- 'alberginia-eco'
+  #- 'brocoli-eco'
+  #- 'ceba-eco'
+  #- 'cogombre-eco'
+  #- 'pastanaga-eco'
+  #- 'platan-eco'
   #- 'datil-medjo-ul-jumbo'
+  #- 'regalessia'
+  #- 'pebre-vermell-dolc'
+  #- 'llorer'
+  #- 'gingebre-fresc-eco'
+  #- 'camamilla'
+  #- 'granola-eco-fruits-secs'
+  #- 'soja-texturitzada'
+  #- 'sundial-shine'
+  #- 'sundial-unwind' #gingebre curcuma
+  #- 'sundial-fow' # rooibos
+  #- 'le-pain-des-fleurs-fajol-s-sal-300grs'
+  #- 'infusio-cupper-bio-llimona-gingebre'
 products:
   - id: "arros-bomba"
     type: "weight"
@@ -63,7 +90,7 @@ products:
   - id: "fideus-no-4"
     type: "weight"
     amount: 1000
-  - id: "fideus-no-2"
+  - id: "fideus-no-02"
     type: "weight"
     amount: 1000
   - id: "llevat-nutricional-eco"
@@ -74,7 +101,7 @@ products:
     amount: 1000
   - id: "flocs-de-civada-fins-eco"
     type: "weight"
-    amount: 300
+    amount: 400
   - id: "sucre-canya-integral-eco"
     type: "weight"
     amount: 1000
@@ -94,6 +121,9 @@ products:
     type: "weight"
     amount: 1000
   - id: "ametlla-torrada"
+    type: "weight"
+    amount: 300
+  - id: "ametlla-marcona-crua"
     type: "weight"
     amount: 300
   - id: "avellana-torrada-semi-pelada"
@@ -122,25 +152,55 @@ products:
     amount: 100
   - id: "aigua-fontboix-8l"
     type: "units"
-    amount: 10
+    amount: 2
   - id: "monsoy-civada-bio"
     type: "units"
     amount: 6
   - id: "llet-de-vaca-ato-ecologica-sencera"
     type: "units"
-    amount: 6
+    amount: 4
   - id: "tahin-monki-330-eco"
     type: "units"
     amount: 1
   - id: "tomaquet-triturat-eco-700g"
     type: "units"
     amount: 1
+  - id: "enciam-fulla-de-roure"
+    type: "units"
+    amount: 1
+  - id: "carbasso-eco"
+    type: "weight"
+    amount: 500
+  - id: "pastanaga-eco"
+    type: "weight"
+    amount: 500
+  - id: "platan-eco"
+    type: "units"
+    amount: 6
+  - id: "llimona-eco"
+    type: "units"
+    amount: 4
+  - id: "pebrot-vermell-escalivar"
+    type: "units"
+    amount: 2
+  - id: "alberginia-eco"
+    type: "units"
+    amount: 2
+  - id: "brocoli-eco"
+    type: "units"
+    amount: 2
+  - id: "ceba-eco"
+    type: "units"
+    amount: 4
+  - id: "cogombre-eco"
+    type: "units"
+    amount: 2
   - id: "mantega-bio-250grs"
     type: "units"
     amount: 1
   - id: "ous-eco"
     type: "units"
-    amount: 2
+    amount: 4
   - id: "olives-arago-450"
     type: "units"
     amount: 2
@@ -171,13 +231,22 @@ products:
   - id: "curcuma"
     type: "weight"
     amount: 200
-  - id: "festuc-closca-torrat-s-sal"
-    type: "weight"
-    amount: 400
   - id: "cirera-eco"
     type: "weight"
     amount: 1000
-  - id: "ametlla-marcona-crua-meitats/"
+  - id: "maduixes-eco-caixa-1kg"
+    type: "units"
+    amount: 1
+  - id: "mongeta-perona"
+    type: "weight"
+    amount: 500
+  - id: "patata-monalisa-eco"
+    type: "weight"
+    amount: 3000
+  - id: "tomaquet-pera-eco"
+    type: "weight"
+    amount: 1000
+  - id: "ametlla-marcona-crua-meitats"
     type: "weight"
     amount: 200
   - id: "ametlla-marcona-molta"
@@ -186,3 +255,39 @@ products:
   - id: "datil-medjo-ul-jumbo"
     type: "weight"
     amount: 100
+  - id: "regalessia"
+    type: "weight"
+    amount: 100
+  - id: "pebre-vermell-dolc"
+    type: "weight"
+    amount: 100
+  - id: "llorer"
+    type: "weight"
+    amount: 100
+  - id: 'gingebre-fresc-eco'
+    type: "weight"
+    amount: 100
+  - id: 'camamilla'
+    type: "weight"
+    amount: 100
+  - id: 'granola-eco-fruits-secs'
+    type: "weight"
+    amount: 300
+  - id: 'soja-texturitzada'
+    type: "weight"
+    amount: 200
+  - id: 'sundial-shine'
+    type: "units"
+    amount: 1
+  - id: 'sundial-unwind'
+    type: "units"
+    amount: 1
+  - id: 'le-pain-des-fleurs-fajol-s-sal-300grs'
+    type: "units"
+    amount: 1
+  - id: 'infusio-cupper-bio-llimona-gingebre'
+    type: "units"
+    amount: 1
+  - id: 'sundial-fow'
+    type: "units"
+    amount: 1
